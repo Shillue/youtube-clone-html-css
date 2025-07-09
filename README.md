@@ -58,7 +58,7 @@ O desafio consiste em construir uma página inspirada na interface do YouTube, a
 ![YoutubeClone](https://github.com/user-attachments/assets/7d6b26b4-9456-4d4d-b8bf-17d09120f5b3)
 
 ### 🔗 Link
-- Solution Site:[Clone YouTube]().
+- Solution Site:[Clone YouTube]( https://shillue.github.io/youtube-clone-html-css/).
 
 ---
 
