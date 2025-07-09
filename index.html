@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/image/youtube.png">
+    <title>Youtube Clone</title>
+</head>
+<body>
+    <header class="banner">
+        <div class="banner_menu_logo">
+            <div class="banner_menu_icon">
+                <div class="menu_icon"></div>
+                <div class="menu_icon"></div>
+                <div class="menu_icon"></div>
+            </div>
+            <div class="banner_logo">
+                <img src="./assets/image/logoYoutube.png" alt="Logotipo do Youtube" title="Logotipo do Youtube">
+            </div>
+        </div>
+                    
+        <div class="banner__search">
+            <input type="text" name="search" id="searchText" class="search__box">
+            <button class="search__btn" ariel-label="Pesquisar">
+                <img src="./assets/image/search2.png" alt="Pesquisar">
+            </button>
+        </div>
+
+        <nav class="banner__icons">
+            <img src="./assets/image/camera.png" alt="video" id="icon__video" class="banner__icons__img">
+            <img src="./assets/image/bell2.png" alt="bell" id="icon__bell" class="banner__icons__img">
+            <img src="./assets/image/perfil2(1).jpg" alt="Avatar" id="icon__avatar" class="banner__icons__img">
+        </nav>
+    </header>
+
+    <main class="content">
+
+        <!-- Seção do vídeo principal -->        
+        <section class="ytb__video__main">
+            <div class="video__main__container">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5HccLlGOPxQ?si=A3coc_jIyRzQ26NM" title="INUYASHA Abertura Completa em Português - Mudar o Mundo/Change the World (PT-BR)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen aria-label="INUYASHA Abertura Completa em Português - Mudar o Mundo/Change the World (PT-BR)"></iframe>
+
+            </div>
+
+            <div class="video__main__description">
+                <h1>INUYASHA Abertura Completa em Português - Mudar o Mundo/Change the World (PT-BR)</h1>
+                <article class="video__main__canal">
+                    <div class="main__canal__perfil">                  
+                        <a href="https://www.youtube.com/@miurajam" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/image/avata.jpg" alt="Foto de perfil do canal">
+                        </a>
+
+                        <div class="main__canal__dados">
+                            <h2 id="main__canal__title">Miura Jam</h2>
+                            <p id="main__inscritos">469 mil inscritos</p>
+                        </div>
+                    </div>  
+
+                    <div class="video__main__actions" role="group" ariel-label="Ações do vídeo">
+                        <button class="btn__videoMain" id="btn__inscrever">Inscreva-se</button>
+                        <button class="btn__videoMain" id="btn__curtir" ariel-label="Curtir">
+                            <img src="./assets/image/gostar.png" alt="Curtir">
+                            21 mil
+                        </button>
+                        <button class="btn__videoMain" id="btn__notCurtir" ariel-label="Não Curtir">
+                            <img src="./assets/image/nao-gosto.png" alt="Não Curtir">
+                            Não gostei
+                        </button>
+                        <button class="btn__videoMain" id="btn__compartilhar" ariel-label="Compartilhar">
+                            <img src="./assets/image/compartilhado.png" alt="Compartilhar">
+                            Compartilhar
+                        </button>
+                        <button class="btn__videoMain" id="btn__donwload">
+                            <img src="./assets/image/baixar.png" alt="Baixar">
+                            Download
+                        </button>
+                    </div>
+
+                </article> 
+                <div class="video__main__section__description">
+                    <h2>998 mil visualizações  há 3 anos</h2>
+                    <p>INUYASHA Abertura Completa em Português - Mudar o Mundo/Change the World (PT-BR) ♬ SPOTIFY & DEEZER ►@Miura Jam BR ★ SE INSCREVA ► <a href="https://goo.gl/9ovXKH"  target="_blank">https://goo.gl/9ovXKH</a> Anime: INUYASHA Original por: V6 ♬ Créditos Versão Cover Letra em Português: Fernando Janson e Rummenigge P. Lassant</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de vídeos recomendados -->
+        <section class="ytb__video__options">
+
+            <div class="video__options">
+                <a href="https://www.youtube.com/watch?v=GciQOG-5tzE" target="_blank" rel="noopener noreferrer">
+
+                    <figure class="video__preview">
+                        <img src="./assets/image/video_1.jpg" alt="Thumb do vídeo">
+                    </figure>
+
+                    <div class="video__options__description">
+                        <h2>Digimon Adventure - Brave Heart em Português (PT-BR)</h2>
+                        <p>Miura Jam</p>
+                        <p>961 mil visualizações há 5 anos</p>
+                    </div> 
+
+                </a>
+            </div>
+
+            <div class="video__options">
+                <a href="https://www.youtube.com/embed/ytcLPhgPpK8?si=fS-y5JYsS5X-ZPoE" target="_blank" rel="noopener noreferrer">
+
+                    <figure class="video__preview">
+                        <img src="./assets/image/video_2.jpg" alt="Thumb do vídeo">
+                    </figure>
+
+                    <div class="video__options__description">
+                        <h2>DRAGON BALL - FANTÁSTICA AVENTURA - OPENING MAKAFUSHIGI ADVENTURE (Feat. Anísio Mello Júnior)</h2>
+                        <p>Projeto Remake</p>
+                        <p>613 mil visualizações  há 9 anos</p>
+                    </div> 
+
+                </a>
+            </div>
+
+            <div class="video__options">
+                <a href="https://www.youtube.com/embed/Nds9oPVLATc?si=_4oWoaZjbiiMXtUr" target="_blank" rel="noopener noreferrer">
+
+                    <figure class="video__preview">
+                        <img src="./assets/image/video_3.jpg" alt="Thumb do vídeo">
+                    </figure>
+
+                    <div class="video__options__description">
+                        <h2>Abertura Os Cavaleiros Do Zodíaco - PEGASUS FANTASY (BR)</h2>
+                        <p>Arahal</p>
+                        <p>3,4 mil de visualizações há 10 anos</p>
+                    </div> 
+
+                </a>
+            </div>
+
+            <div class="video__options">
+                <a href="https://www.youtube.com/embed/AAsxIrCeeUU?si=ql37V0U0Z9yX5-6k" target="_blank" rel="noopener noreferrer">
+
+                    <figure class="video__preview">
+                        <img src="./assets/image/video_4.jpg" alt="Thumb do vídeo">
+                    </figure>
+
+                    <div class="video__options__description">
+                        <h2>Jujutsu Kaisen Abertura Completa em Português - Kaikai Kitan (PT-BR)</h2>
+                        <p>Miura Jam</p>
+                        <p>469 mil inscritos</p>
+                    </div> 
+
+                </a>
+            </div>
+
+            <div class="video__options">
+                <a href="https://www.youtube.com/embed/NVJevZGrU7E?si=qExw8PhsN24a1Pzp" target="_blank" rel="noopener noreferrer">
+
+                    <figure class="video__preview">
+                        <img src="./assets/image/video_5.jpg" alt="Thumb do vídeo">
+                    </figure>
+
+                    <div class="video__options__description">
+                        <h2>Naruto Shippuden Abertura 3 Completa em Português - Blue Bird (PT-BR)</h2>
+                        <p>Miura Jam</p>
+                        <p>469 mil inscritos</p>
+                    </div> 
+
+                </a>
+            </div>
+
+            <div class="video__options">
+                <a href="https://www.youtube.com/embed/ytcLPhgPpK8?si=fS-y5JYsS5X-ZPoE" target="_blank" rel="noopener noreferrer">
+
+                    <figure class="video__preview">
+                        <img src="./assets/image/video_6.jpg" alt="Thumb do vídeo">
+                    </figure>
+
+                    <div class="video__options__description">
+                        <h2>DRAGON BALL - FANTÁSTICA AVENTURA - OPENING MAKAFUSHIGI ADVENTURE (Feat. Anísio Mello Júnior)</h2>
+                        <p>Projeto Remake</p>
+                        <p>613 mil visualizações  há 9 anos</p>
+                    </div> 
+
+                </a>
+            </div>
+
+            <div class="video__options">
+                <a href="https://www.youtube.com/watch?v=d7ytzZNXoPg" target="_blank" rel="noopener noreferrer">
+
+                    <figure class="video__preview">
+                        <img src="./assets/image/video_7.jpg" alt="Thumb do vídeo">
+                    </figure>
+
+                    <div class="video__options__description">
+                        <h2>Yu Yu Hakusho Abertura Completa em Português - Sorriso Contagiante (PT-BR)</h2>
+                        <p>Miura Jam</p>
+                        <p>469 mil inscritos</p>
+                    </div> 
+
+                </a>
+            </div>
+
+            <div class="video__options">
+                <a href="https://www.youtube.com/watch?v=zDbyM9KgDyg" target="_blank" rel="noopener noreferrer">
+
+                    <figure class="video__preview">
+                        <img src="./assets/image/video_8.jpg" alt="Thumb do vídeo">
+                    </figure>
+
+                    <div class="video__options__description">
+                        <h2>OS CAVALEIROS DO ZODÍACO - ABERTURA (PELO MUNDO) FT. VÍVIAN CORDEIRO</h2>
+                        <p>Projeto Remake</p>
+                        <p>238 mil inscritos</p>
+                    </div> 
+
+                </a>
+            </div>      
+
+        </section> 
+    </main>
+    <footer>
+        <p>Challenge by <a href="https://www.dio.me/" target="_blank">DIO</a> cloning Youtube page.</p>
+        <p>Coded by <a href="https://github.com/Shillue" target="_blank">Shilluê</a>.</p>
+    </footer>
+</body>
+</html>
